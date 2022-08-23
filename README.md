@@ -29,3 +29,40 @@ pip uninstall module_name
 ## Errors
 Module not found
 ModuleNotFoundError: No module named 'pandas
+
+
+## Getting all installed libraries
+pip list
+
+## Getting all installed libraries in file
+pip freeze -> requirements.txt
+
+## ## Getting all installed libraries in file (excluding child dependencies)
+- pip install pipreqs
+- pipreqs path_of_the_project
+
+
+# GIT
+- Intializing new repository
+git init
+
+- Adding files
+git add filename-- Adds particular file to staging area
+git add .  --- Adds all modifed files in that directory to staging area
+
+- Commiting messages
+git commit -m "commit message here"
+
+- Pushing files 
+git push origin branch_name
+
+- Branching
+- List out all branches
+ git branch -a
+- Create new branch
+ git branch branch_name
+- Switch to another branch
+ git checkout branch_name
+
+- Pulling changes from repo
+git pull origin branch_name
